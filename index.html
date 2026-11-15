@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#171214">
+<meta name="description" content="HereticDiary — интерактивные проекты, турниры и заметки по Warhammer 40,000.">
+<title>HereticDiary — Архив еретички</title>
+<style>
+:root{--bg:#171214;--panel:#241b1d;--gold:#c9a66b;--light:#ead5ad;--red:#8f3037;--ink:#f0e6d6;--muted:#b8a99a;--line:rgba(201,166,107,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(ellipse at 50% -15%,rgba(143,48,55,.23),transparent 55%),linear-gradient(#1d1618,var(--bg) 55%,#120f10);font:15px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}
+.top{border-bottom:1px solid var(--line);background:#100d0ebd}.nav{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:17px Georgia,serif;letter-spacing:.18em;color:var(--light)}.links{display:flex;gap:24px;color:var(--muted);font-size:13px}.links a:hover,.more:hover{color:var(--light)}
+.hero{min-height:460px;display:grid;place-items:center;text-align:center;padding:75px 20px;border-bottom:1px solid var(--line);background:linear-gradient(90deg,#120d0ff2,#180f11c9,#120d0ff2),radial-gradient(ellipse at 50% 30%,#8f303759,transparent 60%);position:relative}
+.hero:before,.hero:after{content:"";position:absolute;top:42px;bottom:42px;width:1px;background:linear-gradient(transparent,var(--gold),transparent);opacity:.45}.hero:before{left:8%}.hero:after{right:8%}
+.sigil{width:58px;height:58px;border:1px solid var(--gold);transform:rotate(45deg);display:grid;place-items:center;margin:0 auto 27px;color:var(--light)}.sigil span{transform:rotate(-45deg);font:25px Georgia,serif}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.25em;font-size:10px}
+h1{font:500 clamp(35px,7vw,70px)/1.08 Georgia,serif;letter-spacing:.16em;color:var(--light);margin:13px 0 8px;text-shadow:0 3px 24px #000a}.subtitle{font:clamp(17px,2.5vw,23px) Georgia,serif;letter-spacing:.16em;color:#d6b986;text-transform:uppercase;margin-bottom:20px}.hero p{max-width:650px;color:#d0c2b4;margin:auto}
+.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border:1px solid var(--gold);color:var(--light);background:#8f30372e;font-size:11px;letter-spacing:.08em;text-transform:uppercase}.btn.alt{border-color:var(--line);color:var(--muted);background:transparent}.btn:hover{background:#8f303766}
+section{padding:68px 0}.head{text-align:center;margin-bottom:34px}h2{font:500 clamp(26px,4vw,36px)/1.2 Georgia,serif;color:var(--light);margin:0}.desc{max-width:650px;color:var(--muted);margin:12px auto 0;font-size:14px}.ornament{width:110px;height:1px;margin:18px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project{min-height:245px;padding:26px;position:relative;border:1px solid var(--line);background:linear-gradient(135deg,#8f30372b,transparent 58%),linear-gradient(#2a2021,var(--panel));transition:.2s}.project:hover{border-color:#c9a66b99;transform:translateY(-3px)}.num{font:13px Georgia,serif;color:var(--gold);letter-spacing:.16em}.corner{position:absolute;right:20px;top:12px;font:48px Georgia,serif;color:#c9a66b20}.project h3{font:500 25px/1.2 Georgia,serif;color:var(--light);margin:22px 0 10px}.project p{color:var(--muted);font-size:14px;margin:0 0 20px}.more{color:var(--gold);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.about{background:linear-gradient(110deg,#8f30372e,transparent 70%),#1e1719;border-block:1px solid var(--line)}.aboutgrid{display:grid;grid-template-columns:140px 1fr;gap:30px;align-items:center;max-width:850px;margin:auto}.portrait{width:140px;aspect-ratio:1;border:1px solid var(--gold);display:grid;place-items:center;background:linear-gradient(145deg,#342426,#171214);color:var(--gold);font:42px Georgia,serif}.aboutcopy p{color:#c7b9aa;font-size:14px;margin:12px 0}.socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:17px}.socials a{border:1px solid var(--line);padding:7px 13px;color:var(--light);font-size:12px}.socials a:hover{border-color:var(--gold)}
+.future{max-width:760px;margin:auto;padding:25px;border:1px dashed #c9a66b59;text-align:center;color:var(--muted);background:#ffffff05}.future strong{display:block;color:var(--light);font:21px Georgia,serif;margin-bottom:6px}
+footer{padding:27px 0;border-top:1px solid var(--line);color:#887d73;font-size:11px;text-align:center;letter-spacing:.08em}
+@media(max-width:680px){.nav{align-items:flex-start;flex-direction:column;padding:16px 0;gap:10px}.links{gap:15px;flex-wrap:wrap}.hero{min-height:420px;padding:65px 18px}.projects{grid-template-columns:1fr}section{padding:52px 0}.aboutgrid{grid-template-columns:1fr;text-align:center}.portrait{width:112px;margin:auto}.socials{justify-content:center}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap nav"><a class="brand" href="#top">HERETIC DIARY</a><nav class="links"><a href="#projects">Проекты</a><a href="#about">О создательнице</a><a href="#future">Архив</a></nav></div></div>
+<header class="hero" id="top"><div><div class="sigil"><span>H</span></div><div class="eyebrow">Личный архив наблюдений</div><h1>HERETIC DIARY</h1><div class="subtitle">Архив еретички</div><p>Турниры, интерактивные проекты и заметки по вселенной Warhammer 40,000. Изучаем мрачное будущее человечества — и иногда устраиваем ему конкурс красоты.</p><div class="actions"><a class="btn" href="#projects">Открыть проекты</a><a class="btn alt" href="https://www.youtube.com/@HereticDiary" target="_blank" rel="noopener">YouTube-канал</a></div></div></header>
+<main>
+<section id="projects"><div class="wrap"><div class="head"><div class="eyebrow">Досье и состязания</div><h2>Проекты архива</h2><div class="ornament"></div><p class="desc">Здесь собираются интерактивные штуки, в которых можно выбирать, сравнивать, голосовать и проверять знания о мире Warhammer 40,000.</p></div>
+<div class="projects">
+<a class="project" href="https://github.com/hereticdiary/primarch-fashion-battle" target="_blank" rel="noopener"><span class="num">ДОСЬЕ № 001</span><span class="corner">I</span><h3>Модный приговор: Примархи</h3><p>Турнир брони примархов времён Ереси Хоруса. Два претендента выходят на подиум — только один проходит дальше.</p><span class="more">Перейти к проекту ↗</span></a>
+<div class="project"><span class="num">ДОСЬЕ № 002</span><span class="corner">II</span><h3>Демон-принцы</h3><p>Будущий турнир демонических вознесённых. Досье пока засекречено — подготовка ещё впереди.</p><span class="more">Скоро в архиве</span></div>
+</div></div></section>
+<section class="about" id="about"><div class="wrap aboutgrid"><div class="portrait" aria-label="Место для портрета">✦</div><div class="aboutcopy"><div class="eyebrow">Кто ведёт этот архив</div><h2>О создательнице</h2><p>Я Юля, автор HereticDiary. Это мой дневник знакомства с Warhammer 40,000: разбираюсь в лоре, открываю для себя книги, игры, персонажей и делюсь находками.</p><p>Этот сайт — место для проектов, в которых можно не только читать и смотреть, но и самому принимать участие.</p><div class="socials"><a href="https://www.youtube.com/@HereticDiary" target="_blank" rel="noopener">YouTube</a><a href="https://github.com/hereticdiary" target="_blank" rel="noopener">GitHub</a></div></div></div></section>
+<section id="future"><div class="wrap"><div class="head"><div class="eyebrow">Архив пополняется</div><h2>Не последнее досье</h2><div class="ornament"></div></div><div class="future"><strong>Следующие материалы уже готовятся</strong>Опросы сообщества, новые турниры, викторины и другие интерактивные эксперименты могут появиться здесь позже.</div></div></section>
+</main>
+<footer>HERETIC DIARY · НЕОФИЦИАЛЬНЫЙ ФАН-ПРОЕКТ ПО ВСЕЛЕННОЙ WARHAMMER 40,000</footer>
+</body></html>
